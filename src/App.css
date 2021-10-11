@@ -55,12 +55,20 @@
   list-style-type: square;
 }
 .faq-list li {
-  margin-left: 50px;
+  margin-left: 20px;
 }
 .faq-list li.text-green {
-  margin-left: 100px;
+  margin-left: 40px;
 }
 
+@media (min-width: 700px) {
+  .faq-list li {
+    margin-left: 40px;
+  }
+  .faq-list li.text-green {
+    margin-left: 80px;
+  }
+}
 .faq {
   background-image: url(./assets/image/faq_bg.png);
   background-position: bottom left;
