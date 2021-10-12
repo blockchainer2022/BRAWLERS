@@ -15,9 +15,9 @@ const Index = () => {
       <div className="bg-black py-2">
         <div className="container">
           <div className="md:flex">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center flex-1">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl  text-center flex-1">
               THIMBLEGANG{" "}
-              <span className="text-primary md:text-7xl lg:text-8xl xl:text-9xl sm:text-5xl">
+              <span className="text-primary md:text-7xl lg:text-8xl sm:text-5xl">
                 BRAWLERS
               </span>
             </h1>
@@ -83,7 +83,7 @@ export default Index;
 
 const ListItem = ({ text = "Mint", link = "#" }) => (
   <li className="ml-8">
-    <a href={link} className="uppercase text-6xl ">
+    <a href={link} className="uppercase text-5xl ">
       {text}
     </a>
   </li>

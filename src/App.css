@@ -1,56 +1,3 @@
-.banner {
-  background-image: url(./assets/image/banner_bg.png);
-  background-position: top left;
-  background-size: cover;
-
-  width: 100%;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 600px) {
-  .banner {
-    background-image: none;
-    /* background-size: contain; */
-    background-color: #ffbd14;
-  }
-}
-
-/* img {
-  max-width: 100%;
-  margin: auto;
-} */
-.ring-image {
-  position: absolute;
-  /* top: 50%; */
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  top: 15%;
-  transform: translatey(-50%);
-}
-
-.ring-image-wrapper {
-  background-color: #c42746;
-
-  border-radius: 4px;
-  margin-right: 10px;
-  width: 25%;
-}
-
-.ring-image-wrapper img {
-  width: 100%;
-}
-
-.ring-text {
-  position: absolute;
-  bottom: 13%;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #3bf800;
-}
 .faq-list {
   list-style-type: square;
 }
@@ -69,12 +16,7 @@
     margin-left: 80px;
   }
 }
-.faq {
-  background-image: url(./assets/image/faq_bg.png);
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -92,4 +34,15 @@ html {
 
 .active {
   max-height: 1000px;
+}
+
+.custom-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 100%;
+  }
 }

@@ -5,10 +5,10 @@ import Team3 from "../../assets/image/team3.png";
 import Team4 from "../../assets/image/team3.png";
 const Index = () => {
   return (
-    <section>
-      <div className="bg-black">
+    <section id="team">
+      <div className="bg-black py-10">
         <div className="container">
-          <p className="text-2xl text-center sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl">
+          <p className="text-2xl text-center sm:text-4xl md:text-6xl ">
             THE THIMBLEGANG |<span className="text-green"> {" TEAM "} </span>
           </p>
         </div>

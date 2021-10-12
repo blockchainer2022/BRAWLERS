@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      borderRadius: {
+        DEFAULT: "10px",
+      },
       backgroundColor: () => ({
         primary: "#333333",
         yellow: "#FFBD14",
@@ -16,6 +19,7 @@ module.exports = {
         green: "#46DC06",
         white: "#fff",
         yellow: "#FFBE15",
+        light: "#E5E5E5",
       },
       container: {
         center: true,

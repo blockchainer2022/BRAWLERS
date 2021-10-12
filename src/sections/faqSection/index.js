@@ -2,17 +2,17 @@ import React from "react";
 
 const Index = () => {
   return (
-    <section className="faq">
-      <div className="bg-black">
+    <section className="faq" id="faq">
+      <div className="bg-black py-10">
         <div className="container">
-          <p className="text-2xl text-center sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl">
+          <p className="text-2xl text-center sm:text-4xl md:text-6xl ">
             What the
             <span className="text-green"> {" FAQ "} </span>
           </p>
         </div>
       </div>
       <div className="container">
-        <div className="py-24 text-2xl md:text-4xl lg:text-6xl">
+        <div className="py-24 text-2xl md:text-3xl">
           <ul className="faq-list">
             <li>How much does it cost to mint?</li>
             <li className="text-green">
