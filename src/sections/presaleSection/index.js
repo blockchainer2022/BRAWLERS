@@ -1,5 +1,9 @@
 import React from "react";
 import PholderImage from "../../assets/image/placeholder.png";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
 const Index = () => {
   return (
     <section className="bg-primary" id="connect">
@@ -25,20 +29,64 @@ const Index = () => {
                 </h4>
               </ColWrap>
               <div className="md:flex-1 bg-black p-2 py-4  rounded my-4 lg:my-2 md:flex md:flex-col md:justify-between ">
-                <div className=" flex flex-wrap ">
-                  <div className="w-1/2 p-2">
-                    <img src={PholderImage} alt="" className="w-full" />
+                <OwlCarousel className="owl-theme" items={1} dots={true}>
+                  <div className=" flex flex-wrap ">
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
                   </div>
-                  <div className="w-1/2 p-2">
-                    <img src={PholderImage} alt="" className="w-full" />
+                  <div className=" flex flex-wrap ">
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
                   </div>
-                  <div className="w-1/2 p-2">
-                    <img src={PholderImage} alt="" className="w-full" />
+                  <div className=" flex flex-wrap ">
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
                   </div>
-                  <div className="w-1/2 p-2">
-                    <img src={PholderImage} alt="" className="w-full" />
+                  <div className=" flex flex-wrap ">
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
+                    <div className="w-1/2 p-2">
+                      <img src={PholderImage} alt="" className="w-full" />
+                    </div>
                   </div>
-                </div>
+                </OwlCarousel>
                 <div className="w-full">
                   <h4 className="text-2xl text-center mt-4 lg:text-4xl">
                     YOU OWN <span className="text-green">0</span> BRAWLERS
