@@ -2,7 +2,7 @@ import React from "react";
 import Team1 from "../../assets/image/team1.png";
 import Team2 from "../../assets/image/team2.png";
 import Team3 from "../../assets/image/team3.png";
-import Team4 from "../../assets/image/team3.png";
+import Team4 from "../../assets/image/sirish.jpeg";
 const Index = () => {
   return (
     <section id="team">
@@ -37,7 +37,7 @@ const Index = () => {
             <div className="w-full sm:w-1/2 md:w-1/4 sm:pl-4 md:p-4">
               <CardContent
                 img={Team4}
-                content={["Shirish Vispute", "LEAD DEVELOPER", "@shirishv"]}
+                content={["Shirish", "LEAD DEVELOPER", "@shirishv"]}
               />
             </div>
           </div>
