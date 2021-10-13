@@ -22,10 +22,18 @@ const Index = () => {
               </span>
             </h1>
             <div className="hidden md:block md:text-5xl lg:text-6xl">
-              <a href="https://twitter.com/thimblegang" target="_blank">
+              <a
+                href="https://twitter.com/thimblegang"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillTwitterCircle />
               </a>
-              <a href="https://discord.gg/aGR2B4Curb" target="_blank">
+              <a
+                href="https://discord.gg/aGR2B4Curb"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <SiDiscord />
               </a>
             </div>
