@@ -15,10 +15,30 @@ const Index = () => {
       <div className="bg-black py-2">
         <div className="container">
           <div className="md:flex">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl  text-center flex-1">
-              THIMBLEGANG{" "}
-              <span className="text-primary md:text-7xl lg:text-8xl sm:text-5xl">
-                BRAWLERS
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl  text-center flex items-center  justify-between flex-1">
+              <span className="md:hidden">
+                <a
+                  href="https://twitter.com/thimblegang"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiFillTwitterCircle />
+                </a>
+              </span>
+              <span>
+                THIMBLEGANG{" "}
+                <span className="text-primary md:text-7xl lg:text-8xl sm:text-5xl">
+                  BRAWLERS
+                </span>
+              </span>
+              <span className="md:hidden">
+                <a
+                  href="https://discord.gg/aGR2B4Curb"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <SiDiscord />
+                </a>
               </span>
             </h1>
             <div className="hidden md:block md:text-5xl lg:text-6xl">
