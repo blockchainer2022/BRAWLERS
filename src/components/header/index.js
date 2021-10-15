@@ -15,7 +15,7 @@ const Index = () => {
       <div className="bg-black py-2">
         <div className="container">
           <div className="md:flex">
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl  text-center flex items-center  justify-between flex-1">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl  text-center flex md:justify-center items-center  justify-between flex-1">
               <span className="md:hidden">
                 <a
                   href="https://twitter.com/thimblegang"
