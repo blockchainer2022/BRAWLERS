@@ -40,7 +40,7 @@ const StageOne = () => (
     <div className="container py-10">
       <div className="custom-container">
         <TextWrapper>
-          1000 units including (?) women, (?) men and (?) specials are
+          1.168 units including (?) women, (?) men and (?) specials are
           introduced and ready to mint. Sale price is 0.05 ETH + Gas fees with a
           limit of 10 units per transaction.
         </TextWrapper>
@@ -59,7 +59,7 @@ const StageTwo = () => (
     <div className="container py-10">
       <div className="custom-container">
         <TextWrapper>
-          4000 more units will be made available for you to mint at 0.06 + gas
+          3.000 more units will be made available for you to mint at 0.06 + gas
           fees.
         </TextWrapper>
       </div>
@@ -149,7 +149,7 @@ const StageThree = () => (
               <div className="w-full">
                 <ColWrap>
                   <h4 className="text-2xl text-center  lg:text-4xl">
-                    <span className="text-primary">BREED</span>
+                    <span className="text-white">{">BREED<"}</span>
                   </h4>
                 </ColWrap>
               </div>
@@ -174,7 +174,7 @@ const StageThree = () => (
     <div className="container pb-10 md:pb-10 ">
       <div className="custom-container">
         <ColWrap>
-          <h5 className="text-4xl text-center lg:text-5xl text-black">
+          <h5 className="text-4xl text-center lg:text-5xl text-white">
             {"> WALLET CONNECT <"}
           </h5>
         </ColWrap>
@@ -189,9 +189,9 @@ const StageFour = () => (
     <div className="container pt-10">
       <div className="custom-container">
         <TextWrapper>
-          Big Brawlers are introduced to the gang as a 10.000 unit collection of
+          Big Brawlers are introduced to the gang as a 2.000 unit collection of
           a more powerful and redesigned kind of Brawler. Presale consists of
-          2500 units at 0.06 ETH + Gas fees.
+          1.000 units at 0.06 ETH + Gas fees.
         </TextWrapper>
       </div>
     </div>
@@ -209,7 +209,7 @@ const StageFive = () => (
     <div className="container py-10">
       <div className="custom-container">
         <TextWrapper>
-          2500 units will be available for you to mint at 0.07 ETH + Gas fees.
+          2.000 units will be available for you to mint at 0.07 ETH + Gas fees.
         </TextWrapper>
       </div>
     </div>
@@ -251,8 +251,8 @@ const StageEight = () => (
       <div className="custom-container">
         <TextWrapper>
           Metabrawlers are here, the last Brawlers of the saga have now morphed
-          into a final 10.000 unit collection of a more powerful and redesigned
-          kind of Brawler, with an even cooler name! Presale consists of 3.000
+          into a final 2.000 unit collection of a more powerful and redesigned
+          kind of Brawler, with an even cooler name! Presale consists of 1.000
           units at 0.08 ETH + Gas fees.
         </TextWrapper>
       </div>
@@ -270,7 +270,7 @@ const StageNine = () => (
     <div className="container py-10">
       <div className="custom-container">
         <TextWrapper>
-          Sale consists of 7.000 units at 0.09 ETH + Gas fees.
+          Sale consists of 1.000 units at 0.09 ETH + Gas fees.
         </TextWrapper>
       </div>
     </div>
