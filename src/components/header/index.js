@@ -1,14 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
+import React from "react";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { SiDiscord } from "react-icons/si";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { FaTimes } from "react-icons/fa";
+// import { GiHamburgerMenu } from "react-icons/gi";
+// import { FaTimes } from "react-icons/fa";
 const Index = () => {
-  const [open, setOpen] = useState(false);
-  const openHandler = () => {
-    setOpen((prev) => !prev);
-  };
+  // const [open, setOpen] = useState(false);
+  // const openHandler = () => {
+  //   setOpen((prev) => !prev);
+  // };
   return (
     <header className="relative">
       {/* TOP HEADER START*/}
@@ -62,7 +62,7 @@ const Index = () => {
       </div>
       {/* TOP HEADER END */}
       {/* Bottom Menu Start */}
-      <div className="container">
+      {/* <div className="container">
         <div className="flex justify-items-end md:justify-center py-4 relative">
           <ul className=" justify-center hidden md:flex">
             <ListItem />
@@ -76,10 +76,10 @@ const Index = () => {
           >
             {open ? <FaTimes /> : <GiHamburgerMenu />}
           </div>
-        </div>
-        {/* Bottom Menu End */}
-        {/* Mobile Menu */}
-        <div
+        </div> */}
+      {/* Bottom Menu End */}
+      {/* Mobile Menu */}
+      {/* <div
           className={`mobile-nav bg-dark ${open ? "active" : null} lg:hidden`}
         >
           <ul className="list-none text-center p-8 text-white">
@@ -105,17 +105,17 @@ const Index = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };
 
 export default Index;
 
-const ListItem = ({ text = "Mint", link = "#" }) => (
-  <li className="ml-8">
-    <a href={link} className="uppercase text-5xl ">
-      {text}
-    </a>
-  </li>
-);
+// const ListItem = ({ text = "Mint", link = "#" }) => (
+//   <li className="ml-8">
+//     <a href={link} className="uppercase text-5xl ">
+//       {text}
+//     </a>
+//   </li>
+// );

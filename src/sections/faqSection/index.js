@@ -14,14 +14,23 @@ const Index = () => {
       <div className="container">
         <div className="py-24 text-2xl md:text-3xl">
           <ul className="faq-list">
+            <li>What is ThimbleGang Brawlers?</li>
+            <li className="text-green">
+              TGB is a collection of 8.168 algorithmically generated pixel
+              characters with 2 genders, unique facial expressions and skin
+              colour coding. An incredible ammount of love is being invested
+              into this project and it will be deployed in 10 stages which we
+              plan to fulfil with your help. For detailed info view ROADMAP.
+            </li>
             <li>How much does it cost to mint?</li>
             <li className="text-green">
-              It costs 0.05 ETH + gas fees to mint Thimble Gang Brawlers.
+              It costs 0.05 ETH + gas fees to mint Thimble Gang Brawlers during
+              Presale.
             </li>
             <li>How does breeding work?</li>
             <li className="text-green">
               You must submit 1 male + 1 female + some Knuckle$ + Gas fees at
-              the BREEDING PANEL and you will receive a Newborn Brawler.
+              the BREEDING PANEL and you will receive a Big Brawler.
             </li>
             <li>How many Brawlers can I mint?</li>
             <li className="text-green">

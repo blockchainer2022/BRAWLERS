@@ -19,7 +19,7 @@ const Index = () => {
             <div className="w-full sm:w-1/2 md:w-1/4 sm:pl-4 md:p-4">
               <CardContent
                 img={Team1}
-                content={["S. Shakespeare", "FOUNDER/DESIGNER", "@thimblegang"]}
+                content={["Shilliam S", "FOUNDER/DESIGNER", "@thimblegang"]}
               />
             </div>
             <div className="w-full sm:w-1/2 md:w-1/4 sm:pl-4 md:p-4">
