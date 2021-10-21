@@ -54,3 +54,9 @@ html {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+@media (max-width: 560px) {
+  .banner-image {
+    height: 60vh;
+  }
+}
