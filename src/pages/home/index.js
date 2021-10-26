@@ -1,6 +1,5 @@
 import React from "react";
 import { Layout } from "../../components";
-import { toast } from "react-toastify";
 import {
   BannerSection,
   PresaleSection,
@@ -8,28 +7,12 @@ import {
   FaqSection,
   TeamSection,
 } from "../../sections";
-import "react-toastify/dist/ReactToastify.css";
-toast.configure();
-const Index = ({
-  account,
-  mint,
-  totalSupply,
-  displayPrice,
-  loadWeb3,
-  maxSupply,
-}) => {
+const Index = () => {
   return (
     <div>
       <Layout>
         <BannerSection />
-        <PresaleSection
-          account={account}
-          mint={mint}
-          totalSupply={totalSupply}
-          displayPrice={displayPrice}
-          maxSupply={maxSupply}
-          loadWeb3={loadWeb3}
-        />
+        <PresaleSection />
         <RoadMapSection />
         <FaqSection />
         <TeamSection />
