@@ -171,7 +171,7 @@ const StageThree = () => (
         </p>
       </div>
     </div>
-    <div className="container pb-10 md:pb-10 ">
+    {/* <div className="container pb-10 md:pb-10 ">
       <div className="custom-container">
         <ColWrap>
           <h5 className="text-4xl text-center lg:text-5xl text-white">
@@ -179,7 +179,7 @@ const StageThree = () => (
           </h5>
         </ColWrap>
       </div>
-    </div>
+    </div> */}
   </div>
 );
 

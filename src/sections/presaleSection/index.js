@@ -18,7 +18,7 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="container pt-10 md:pt-24 text-center">
+      <div className="container py-10 md:py-24 text-center">
         <div className="custom-container">
           <div className="md:flex">
             {/* Your Knuckle Start */}
@@ -130,9 +130,15 @@ const Index = () => {
                       <p className="text-green">0000</p>
                     </div>
                   </div>
-                  <ColWrap>
-                    <p className="text-green">{">MINT<"}</p>
-                  </ColWrap>
+                  <a
+                    href="https://presale-mint.thimblegang.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <ColWrap>
+                      <p className="text-green">{">MINT<"}</p>
+                    </ColWrap>
+                  </a>
                 </div>
               </div>
             </div>
@@ -140,7 +146,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div className="container pb-10 md:pb-24 mt-8 md:mt-10">
+      {/* <div className="container pb-10 md:pb-24 mt-8 md:mt-10">
         <div className="custom-container">
           <ColWrap>
             <h5 className="text-4xl lg:text-5xl text-center">
@@ -148,7 +154,7 @@ const Index = () => {
             </h5>
           </ColWrap>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
