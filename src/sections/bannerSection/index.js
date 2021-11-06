@@ -16,7 +16,7 @@ const Index = () => {
         <div className="container relative">
           <div className="flex justify-items-end md:justify-center py-4 ">
             <ul className=" justify-center hidden md:flex">
-              <ListItem />
+              <ListItem link="https://presale-mint.thimblegang.com/" />
               <ListItem text="RoadMap" link="#roadmap" />
               <ListItem text="Faq" link="#faq" />
               {/* <ListItem text="Connect" link="#connect" /> */}
