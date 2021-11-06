@@ -49,7 +49,7 @@ html {
 
 .banner-image {
   height: 100vh;
-  background-image: url(./assets/image/banner-bg2.png);
+  background-image: url(./assets/image/bgImage.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -61,6 +61,6 @@ html {
   }
 }
 
-.presale-input:focus{
+.presale-input:focus {
   outline: none;
 }
